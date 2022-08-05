@@ -126,7 +126,7 @@ public class MenuUsuario extends Estados {
         /** Retorna al menu Inicial*/
         public void mousePressed(MouseEvent e) {
             if(e.getComponent().getName().equals("v")){ //iniciar partida
-                world.nuevoJuego();
+               world.VolvernuevoJuego();
             }             
         }
 
